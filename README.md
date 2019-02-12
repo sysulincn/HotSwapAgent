@@ -63,4 +63,4 @@ HotSwapAgent有三种使用方式，每种方式都依赖于特定的配置，�
 3. 当前的实现方式仅支持linux系统，系统依赖包括来自jdk的tools.jar（不同操作系统需要不同jdk的具体实现）、读取文件更改时间的方式实现
 
 ## 问题
-有问题请直接提交issue，或者联系作者林澄南 sysu_lincn@qq.com
+有问题请直接提交issue，或者联系作者 sysu_lincn@qq.com

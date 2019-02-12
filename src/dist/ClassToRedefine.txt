@@ -1,0 +1,7 @@
+#文件支持开头为#的注释
+
+#下面的配置会让HotSwapAgent热加载仅WangZheBook.class一个类，不包含形如"WangZheBook$xxx.class"的子类及其他类
+/home/server/javaExtensions/com/altratek/altraserver/extensions/holiday/act2017/act20170217/WangZheBook.class
+
+#你也可以指定热加载整个目录下的类，注意这个目录会自动包含所有子目录下的类，因为HotSwapAgent会递归查找所有子目录
+/home/server/javaExtensions/com/altratek/altraserver/extensions/holiday/act2017/act20170217/

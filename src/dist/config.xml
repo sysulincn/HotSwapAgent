@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <process name="server"
+             pid_command="ps -ef|grep javaE|grep -v grep|awk '{print $2}'"
+             search_path="/home/server/javaExtensions/"
+    />
+    <process name="other server"
+             pid_command="ps -ef | grep HelloSwapper | grep -v grep"
+             search_path="/root/test/"
+    />
+</config>

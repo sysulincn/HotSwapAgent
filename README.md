@@ -1,5 +1,7 @@
 # HotSwapAgent
 
+用来给Java应用程序执行方法体内变更的热更新的程序，配置必须给出要热更的java进程， 要热更的class文件。
+
 ## 如何发布
 
 在命令行下使用`gradlew distZip`生成要发布的文件：
